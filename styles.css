@@ -79,4 +79,39 @@ body {
 
 .info {
     background-color: white;
+    margin: 0 auto;
+}
+
+.randomInfo {
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.imgItems {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.imgContainer {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.imgText {
+    color: #a0a1a1;
+    font-size: 12px;
+}
+
+.imgs {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    border: 2px solid #3882f6;
 }
