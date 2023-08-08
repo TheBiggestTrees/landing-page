@@ -2,17 +2,18 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    margin: 4px 300px 4px;
-    background-color: #1f2937;
+    margin: 0;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #1f2937;
 }
 
 .top-h, .bottom-h{
+    margin: 4px 500px 4px;
     display: flex;
     justify-content: space-between;
 }
@@ -36,8 +37,14 @@ body {
 }
 
 .bottom-h {
-    margin: 80px 0px;
+    margin: 85px 500px 85px;
 
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .heroText {
@@ -50,7 +57,8 @@ body {
 .heroSubText {
     color: #e5e7eb;
     font-size: 18px;
-    width: 500px;
+    width: 450px;
+    height: auto;
 }
 
 .heroButton {
@@ -66,7 +74,9 @@ body {
 
 .heroImage {
     width: auto;
-    height: 300px;
-    margin-left: 32px
+    height: 250px;
 }
 
+.info {
+    background-color: white;
+}
